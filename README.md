@@ -14,8 +14,6 @@
 
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui `stable diffusion webui`官方安装教程
 
-最好有个vpn，没有也没关系，有的文件我已经为你下载好了。
-
 ## 安装篇
 
 安装分为四个步骤：
