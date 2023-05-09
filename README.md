@@ -63,8 +63,6 @@ brew install cmake protobuf rust python@3.10 git wget
 
 大模型可以到 https://huggingface.co/ 上去下载，下载后放到`stable-diffusion-webui/models/Stable-diffusion`目录下。
 
-由于大模型动辄好几个G，我没有办法让你高速获取，你需要自行下载。
-
 这里推荐一个逼真人物模型：https://huggingface.co/naonovn/chilloutmix_NiPrunedFp32Fix/blob/main/chilloutmix_NiPrunedFp32Fix.safetensors
 
 你也可以自己到 https://huggingface.co/models 上面搜索感兴趣的模型，下载`Files and verions`下面的`.safetensors`文件。
@@ -72,8 +70,6 @@ brew install cmake protobuf rust python@3.10 git wget
 ### 3.下载小模型
 
 小模型可以到 https://huggingface.co/ 上去下载，下载后放到`stable-diffusion-webui/models/Lora`目录下。
-
-小模型比较小，一般只有几百M，考虑到有些小伙伴没有vpn的，所以我事先下载了几个放进目录里了。
 
 我这里下载了几个常用的Lora类型小模型：
 - PiscesArmor.safetensors（双鱼座黄金圣衣）https://civitai-delivery-worker-prod-2023-03-30.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/3497/model/piscesarmor.g7UW.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22PiscesArmor.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2fea663d76bd24a496545da373d610fc/20230509/us-east-1/s3/aws4_request&X-Amz-Date=20230509T013341Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f769bd7425b7f3bf6c3ab6759234139597284e248fab2c9901199e5919d7b6b2
